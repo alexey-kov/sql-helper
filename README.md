@@ -558,7 +558,7 @@ print_r(query($sql, [['a','b','c','d'], '2010-10-10',
 ```
 
 
-##[__^__](#head5) <a name="head1"></a>TODO:
+##[__^__](#head1) <a name="head5"></a>TODO:
 
 + separate branch with version that can be used without CodeIgniter framework
 + translated docs
