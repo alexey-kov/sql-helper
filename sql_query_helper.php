@@ -29,7 +29,7 @@ if (!function_exists('query')) {
             }
         } catch (Exception $e) {
             log_message('error', "SQL Parser Error:\n" . $e->getMessage() . "\n" . $e->getTraceAsString());
-            show_error(__METHOD__' said: See log');
+            show_error(__METHOD__.' said: See log');
             exit();
         }
 
